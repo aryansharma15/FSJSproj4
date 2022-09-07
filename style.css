@@ -1,0 +1,109 @@
+.container{
+    margin: 40px 80px;
+}
+
+/* 
+    Navbar
+*/
+
+section[aria-label="navbar"]{
+    margin-bottom: 60px;
+}
+
+.navbar-container div{
+    display: inline;
+}
+
+.navbar-container div img{
+    width: 120px;
+}
+
+.list{
+    display: inline;
+    position: absolute;
+    left: 17vw;
+}
+
+.list li{
+    display: inline;
+    margin: 0px 15px;
+    color: #C4C4C4;
+    transition: 0.12s ease-in-out;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.list li:active{
+    color: #000000;
+}
+
+.button-group{
+    display: inline;
+    position: absolute;
+    right: 8vw;
+}
+
+.nav-button{
+    /* padding: 10px 40px; */
+    background-color: #5955B3;
+    color: #ffffffce;
+    border: 0px solid;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.navbar-container button{
+    padding: 15px 33px;
+}
+
+
+/* 
+    Banner
+*/
+
+.banner-container div{
+    display: inline;
+}
+
+.text{
+    display: inline;
+    position: absolute;
+    width: 40vw;
+}
+
+.heading-text{
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #3C2F60;
+    margin-bottom: 20px;
+    line-height: 75px;
+}
+
+.heading-text span{
+    color: #5955B3;
+}
+
+
+.description{
+    display: inline;
+    position: absolute;
+    width: 27vw;
+    font-size: 20px;
+    color: #b6b6b6;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 35px;
+}
+
+.btn{
+    padding: 22px 40px;
+    position: absolute;
+    top: 450px;
+    left: 1vw;
+
+    border-radius: 15px;
+}
+
+.image-div{
+    display: inline;
+    position: absolute;
+    right: 0px;
+}
